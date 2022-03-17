@@ -14,8 +14,8 @@ jobs:
       - name: Mirror the GitHub repos to Gitee
         uses: Yikun/hub-mirror-action@v1.1
         with:
-          src: github/WTxiaomage
-          dst: gitee/WTxiaomage_admin
+          src: github/jswangtao
+          dst: gitee/jswangtao
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
           static_list: 'imgsbed' # 要同步的仓库
